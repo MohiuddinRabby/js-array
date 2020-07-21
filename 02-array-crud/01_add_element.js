@@ -10,3 +10,11 @@ arrOne.push(arrTwo)
 console.log('arr: ', arrOne)
 // [ 1, 2, 3, 4, 5, 6, 7, [ 9, 10 ] ]
 
+//to add element at the beginning of the array
+const arrThree = ['john', 'doe', 'smith']
+console.log(arrThree)
+// arrThree.unshift('Steve')
+// console.log(arrThree)
+const arrFour = ['steve', 'mike']
+arrThree.unshift(...arrFour)
+console.log(arrThree)
