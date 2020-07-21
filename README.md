@@ -70,3 +70,39 @@ console.log(`average: ${avg}`);
 console.log(`sum is ${sum}`);
 console.log(`max num is : ${maxNum}`);
 ```
+
+> Add element to the end of an array
+
+```js
+const arrOne = [1, 2, 3, 4, 5];
+const arrTwo = [9, 10];
+console.log("arr: ", arrOne);
+// [ 1, 2, 3, 4, 5 ]
+arrOne.push(6, 7);
+console.log("arr: ", arrOne);
+// [1, 2, 3, 4, 5, 6, 7]
+arrOne.push(arrTwo);
+console.log("arr: ", arrOne);
+// [ 1, 2, 3, 4, 5, 6, 7, [ 9, 10 ] ]
+```
+
+> Add element to the beginning of an array
+
+#### example-1
+
+```js
+const arr= = ["john", "doe", "smith"];
+console.log(arrThree);
+arr.unshift("Steve");
+console.log(arrThree);
+```
+
+#### example-2
+
+```js
+const arrThree = ["john", "doe", "smith"];
+console.log(arrThree); //[ 'john', 'doe', 'smith' ]
+const arrFour = ["steve", "mike"];
+arrThree.unshift(...arrFour);
+console.log(arrThree); //[ 'steve', 'mike', 'john', 'doe', 'smith' ]
+```
