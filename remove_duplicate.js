@@ -27,3 +27,9 @@ for (let i = 0; i < fruits.length; i++) {
 console.log(newBasket);
 //[ 'apple', 'banana', 'lichi', 'orange', 'palm', 'blueberry' ]
 
+//process -2
+const numbers = [1, 2, 3, 4, 5, 1, 2, 9, 8];
+function removeDuplicate(num) {
+  return [...new Set(num)];
+}
+console.log(removeDuplicate(numbers));
