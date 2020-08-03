@@ -11,6 +11,21 @@ const items = [
   { id: 11, name: "item10", category: "tv" },
 ];
 const allData = items.map((item) => item);
-// console.log(allData);
+console.log(allData);
 const filteredData = items.filter((cat) => cat.category === "electronics");
 console.log(filteredData);
+
+const words = [
+  "hello",
+  "world",
+  "ho",
+  "mars",
+  "apple",
+  "oranges",
+  "pineapple",
+  "github",
+  "we",
+  "i",
+];
+const filtered = words.filter((word) => word.length > 3);
+console.log(filtered);
