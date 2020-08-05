@@ -12,3 +12,9 @@ for (i in list) {
 
 console.log(newList);
 //'name', 'todo', 'sunday'
+
+//process-2
+let processTwo;
+processTwo = list.filter(Boolean);
+console.log(processTwo);
+// 'name', 'todo', 'sunday'
